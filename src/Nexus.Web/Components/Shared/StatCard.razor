@@ -1,0 +1,21 @@
+
+<div class="stat-card">
+    <p class="stat-title">@Title</p>
+
+    <h2 class="stat-value">@Value</h2>
+
+    <small class="stat-description">
+        @Description
+    </small>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public string Value { get; set; } = "";
+
+    [Parameter]
+    public string Description { get; set; } = "";
+}

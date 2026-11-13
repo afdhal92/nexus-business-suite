@@ -1,0 +1,32 @@
+
+.stat-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.stat-title {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0;
+}
+
+.stat-value {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #111827;
+}
+
+.stat-description {
+    color: #16a34a;
+    font-size: 13px;
+}
